@@ -16,7 +16,8 @@
     --ff-title: "Playfair Display", serif;
     --ff-body: "Assistant", sans-serif;
 }
-
+/* ESTO TE PERMITE QUE CUANDO PONGAS TU WEB EN DARK MODE O LIGHT MODE 
+QUE LO PUEDAS CAMBIAR  */
 @media (prefers-color-scheme: dark) {
     :root {
         --clr-primary: #202302;
@@ -46,6 +47,9 @@ h1 {
 
 .subtitle {
     max-width: 600px;
+}
+#element, .typed-cursor {
+    font-size: 2rem;
 }
 
 .btn-group {
